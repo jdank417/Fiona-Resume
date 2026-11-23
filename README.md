@@ -10,7 +10,7 @@ Real content (résumé, philosophies, lesson plans, cooperating-teacher letter) 
 |---|---|
 | Fun facts, second recommendation letter | `index.html` |
 | Professional photo | replace `assets/img/portrait.svg` (or drop in `portrait.jpg` and update the `src`) |
-| Lesson / anchor chart / bulletin board / student work photos | `assets/img/*.svg` → swap files and update `src` in the gallery |
+| Anchor chart, bulletin board, and student work photos | `assets/img/*.svg` → swap files and update `src` in the gallery (teaching + Halloween photos are real) |
 
 ## Local preview
 
