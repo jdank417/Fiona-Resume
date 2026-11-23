@@ -16,28 +16,48 @@
 </head>
 <body>
 
+<a class="skip-link" href="#main">Skip to content</a>
 <header class="site-header">
-  <a class="brand" href="#top"><span class="brand-apple">🍎</span> Ms. Catsoris</a>
-  <button class="nav-toggle" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
-  <nav class="nav" aria-label="Main">
-    <a href="#contents">Contents</a>
-    <a href="#background">I. Background</a>
-    <a href="#teaching">II. Teaching Artifacts</a>
-    <a href="#professional">III. Professional</a>
-    <a class="nav-cta" href="#contact">Say hi</a>
+  <a class="brand" href="index.html"><span class="brand-apple">🍎</span> Ms. Catsoris</a>
+  <button class="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="site-menu">
+    <span class="nav-toggle-label">Menu</span>
+    <span class="bars" aria-hidden="true"><i></i><i></i><i></i></span>
+  </button>
+  <nav id="site-menu" class="menu" aria-label="Portfolio pages">
+    <div class="menu-inner">
+      <a class="menu-home" href="index.html" aria-current="page">🏠 Home</a>
+      <div class="menu-group">
+        <p class="menu-part"><span>I.</span> Background Information</p>
+        <a href="resume.html"><span class="menu-num">I · 1</span><span>Résumé</span></a>
+        <a href="philosophy.html"><span class="menu-num">I · 2</span><span>Educational Philosophy</span></a>
+        <a href="classroom-management.html"><span class="menu-num">I · 3</span><span>Philosophy on Classroom Management</span></a>
+        <a href="about.html"><span class="menu-num">I · 4</span><span>A Little Bit About Me</span></a>
+      </div>
+      <div class="menu-group">
+        <p class="menu-part"><span>II.</span> Teaching Artifacts &amp; Reflections</p>
+        <a href="lessons.html"><span class="menu-num">II · 1</span><span>Lesson Plans &amp; Resources</span></a>
+        <a href="classroom.html"><span class="menu-num">II · 2</span><span>Pictures of My Lessons</span></a>
+        <a href="student-work.html"><span class="menu-num">II · 3</span><span>Student Work Samples</span></a>
+        <a href="reflections.html"><span class="menu-num">II · 4</span><span>Commentary &amp; Observations</span></a>
+      </div>
+      <div class="menu-group">
+        <p class="menu-part"><span>III.</span> Professional Information</p>
+        <a href="professional.html"><span class="menu-num">III · 1</span><span>Professional Activities &amp; Awards</span></a>
+      </div>
+      <a class="menu-cta" href="index.html#contact">Say hi 👋</a>
+    </div>
   </nav>
 </header>
 
-<main id="top">
+<main id="main">
 
-  <!-- ============ HERO ============ -->
   <section class="hero">
     <div class="hero-text">
       <p class="eyebrow">Childhood &amp; Special Education · Birth–Grade 6</p>
       <h1>Hi, I'm <span class="scribble">Fiona</span>.<br/>I help every child feel <em>capable</em>.</h1>
       <p class="lede">I'm a Child Study student at St. Joseph's University, New York, student teaching at Minnesauke Elementary School. This portfolio documents my growth from student into practiced educator.</p>
       <div class="hero-actions">
-        <a class="btn btn-primary" href="#contents">Explore my portfolio</a>
+        <a class="btn btn-primary" href="resume.html">Start the tour →</a>
         <a class="btn btn-ghost" href="assets/docs/Fiona-Catsoris-Resume.pdf" target="_blank" rel="noopener">View résumé</a>
       </div>
       <ul class="hero-stats">
@@ -58,385 +78,39 @@
     </div>
   </section>
 
-  <!-- ============ TABLE OF CONTENTS ============ -->
-  <section id="contents" class="toc-wrap">
-    <div class="card toc">
-      <h2>Table of Contents</h2>
-      <div class="toc-grid">
-        <div>
-          <a class="toc-part" href="#background"><span>I.</span> Background Information</a>
-          <ol>
-            <li><a href="#resume">Résumé</a></li>
-            <li><a href="#philosophy">Educational Philosophy</a></li>
-            <li><a href="#management">Philosophy on Classroom Management</a></li>
-            <li><a href="#about">A Little Bit About Me</a></li>
-          </ol>
-        </div>
-        <div>
-          <a class="toc-part" href="#teaching"><span>II.</span> Teaching Artifacts &amp; Reflections</a>
-          <ol>
-            <li><a href="#lessons">Lesson Plans</a></li>
-            <li><a href="#resources">Resources Used in Unit</a></li>
-            <li><a href="#gallery">Pictures of My Lessons &amp; Anchor Charts</a></li>
-            <li><a href="#work">Student Work Samples</a></li>
-            <li><a href="#commentary">Reflective Commentary by My Cooperating Teacher</a></li>
-            <li><a href="#observations">Observation Highlights</a></li>
-          </ol>
-        </div>
-        <div>
-          <a class="toc-part" href="#professional"><span>III.</span> Professional Information</a>
-          <ol>
-            <li><a href="#activities">Professional Activities &amp; Awards</a></li>
-            <li><a href="#letters">Letter of Recommendation</a></li>
-          </ol>
-        </div>
-      </div>
+  <section id="contents" class="map-wrap">
+    <div class="map-intro">
+      <h2>My Portfolio</h2>
+      <p class="handwritten">pick a section, or use the menu up top</p>
     </div>
-  </section>
-
-  <!-- ============ I. BACKGROUND ============ -->
-  <section id="background" class="part">
-    <div class="part-inner">
-      <div class="part-head">
-        <span class="part-num">I.</span>
-        <div><h2>Background Information</h2><p class="handwritten">who I am and what I believe</p></div>
-      </div>
-
-      <div id="resume" class="sub">
-        <div class="section-head"><span class="section-num">I · 1</span><h2>Résumé</h2></div>
-        <div class="resume card">
-          <div class="resume-col">
-            <h3>Education</h3>
-            <div class="tl-item">
-              <p class="tl-date">May 2027</p>
-              <p class="tl-title">B.A. in Child Study</p>
-              <p class="tl-sub">St. Joseph's University, New York · Patchogue, NY<br/>Concentration: Speech · GPA 3.9</p>
-            </div>
-            <h3>NYS Certifications (in progress)</h3>
-            <ul class="chips">
-              <li>Early Childhood Ed, Birth–Grade 2</li>
-              <li>Childhood Ed, Grades 1–6</li>
-              <li>Students w/ Disabilities, Birth–Grade 2</li>
-              <li>Students w/ Disabilities, Grades 1–6</li>
-            </ul>
-            <h3>Skills &amp; Training</h3>
-            <ul class="chips chips-soft">
-              <li>Google Docs &amp; Slides</li><li>SMART Board</li><li>Microsoft Word</li><li>Chromebooks</li><li>Child Abuse Identification Workshop</li><li>Fingerprint clearance</li><li>TEACH account</li>
-            </ul>
-            <h3>Work Experience</h3>
-            <div class="tl-item">
-              <p class="tl-date">Oct 2024 – Present</p>
-              <p class="tl-title">Childcare Assistant, SACC Program</p>
-              <p class="tl-sub">Three Village Central School District</p>
-            </div>
-            <div class="tl-item">
-              <p class="tl-date">Sept 2023 – Present</p>
-              <p class="tl-title">SEA / Monitor Substitute</p>
-              <p class="tl-sub">Three Village Central School District</p>
-            </div>
-            <div class="tl-item">
-              <p class="tl-date">Summers 2019 – 2026</p>
-              <p class="tl-title">Camp Counselor</p>
-              <p class="tl-sub">Three Village Summer Recreation Camp</p>
-            </div>
-          </div>
-          <div class="resume-col">
-            <h3>Teaching Experience</h3>
-            <div class="tl-item">
-              <p class="tl-date">Sept 2026 – Present</p>
-              <p class="tl-title">Student Teacher, Grades 5 &amp; 3</p>
-              <p class="tl-sub">Minnesauke Elementary School · East Setauket, NY</p>
-              <ul><li>Planned and delivered standards-aligned math, literacy, and science lessons using hands-on activities, visual models, manipulatives, and technology</li><li>Differentiated instruction for students with IEPs and 504 plans through small groups, scaffolding, and graphic organizers</li></ul>
-            </div>
-            <div class="tl-item">
-              <p class="tl-date">Jan – May 2026</p>
-              <p class="tl-title">Fieldwork, Grade 5</p>
-              <p class="tl-sub">Minnesauke Elementary School · East Setauket, NY</p>
-              <ul><li>Supported IEP, ELL, and advanced students in small-group math and literacy: fractions, word problems, comprehension, and structured writing</li></ul>
-            </div>
-            <div class="tl-item">
-              <p class="tl-date">Sept – Dec 2025</p>
-              <p class="tl-title">Fieldwork, Kindergarten</p>
-              <p class="tl-sub">Mount Elementary School · Stony Brook, NY</p>
-              <ul><li>Facilitated hands-on, play-based phonemic awareness, letter recognition, and early writing activities</li></ul>
-            </div>
-            <div class="tl-item">
-              <p class="tl-date">Sept – Dec 2025</p>
-              <p class="tl-title">Fieldwork, Grade 2</p>
-              <p class="tl-sub">Setauket Elementary School · Setauket, NY</p>
-              <ul><li>Planned and led small-group literacy lessons with SMART Board activities, songs, and movement</li></ul>
-            </div>
-            <div class="tl-item">
-              <p class="tl-date">Sept – Dec 2025</p>
-              <p class="tl-title">Fieldwork, Pre-Kindergarten</p>
-              <p class="tl-sub">Kiddie Academy · Wading River, NY</p>
-              <ul><li>Implemented play-based early literacy, numeracy, and social-emotional activities</li></ul>
-            </div>
-            <a class="btn btn-primary btn-sm" href="assets/docs/Fiona-Catsoris-Resume.pdf" target="_blank" rel="noopener">Full résumé (PDF)</a>
-          </div>
-        </div>
-      </div>
-
-      <div id="philosophy" class="sub">
-        <div class="section-head"><span class="section-num">I · 2</span><h2>Educational Philosophy</h2></div>
-        <article class="card prose">
-          <blockquote class="pull">“I hope to be the teacher who makes every child feel important and believes in them when they struggle to believe in themselves.”</blockquote>
-          <p>I believe education is about much more than teaching academic content. It is about helping children grow while developing the confidence and skills they will carry throughout their lives. Every child deserves to enter a classroom feeling valued, respected, included, and safe. I want my students to know their voices matter and that they are capable of achieving great things, even when they may not yet believe that themselves. When children feel supported, they are more willing to take chances, ask questions, and learn from mistakes.</p>
-          <p>My philosophy is influenced by progressivism, particularly John Dewey's belief that children learn through meaningful experiences and active problem solving. Ornstein and Levine (2008) explain that Dewey viewed learning as a process in which students encounter problems, gather information, consider solutions, and test their ideas. This connects to my belief that learning should be engaging and connected to everyday life. Rather than simply memorizing information, students should explore ideas and apply what they learn. Williams (2017) also explains that Dewey viewed the classroom as a social environment where students learn and solve problems together. Additionally, I connect with Maria Montessori's approach, which emphasizes independence and hands-on learning with teachers guiding students as they explore (Williams, 2017).</p>
-          <p>Building genuine relationships with students is one of my most important responsibilities as an educator. I want to know each child as an individual, including their interests, strengths, challenges, and background. Since no two students are alike, supporting them will not always look the same. To me, treating students fairly does not mean treating them exactly alike; it means making sure each child has what they need to succeed. I will adapt instruction and provide additional support or challenges when necessary. I also want students to feel that their cultures, backgrounds, and experiences are valued. Williams (2017) emphasizes that education should support the growth of the whole child, not just academic achievement. I never want a student to feel embarrassed for asking for help or learning differently.</p>
-          <p>A positive and structured classroom environment is also essential. I want my classroom to feel welcoming while maintaining consistent routines and clear expectations. When a student struggles with behavior, I would speak with them privately rather than embarrass them in front of classmates. I also hope to build a classroom community through morning meetings and traditions that give students opportunities to connect. Williams (2017) explains that morning meetings can help establish trust and a sense of belonging. Through hands-on activities, classroom discussions, and small group instruction, I hope to make learning engaging while recognizing that students learn in different ways. I will use observations and students' work to monitor their progress, provide feedback, and adjust my instruction when needed.</p>
-          <p>Ultimately, I want students to leave my classroom with more than academic knowledge. Success should also be measured by personal growth. A student who comes out of their shell, gains confidence, or finds the courage to participate has accomplished something worth celebrating. I want students to recognize their progress and appreciate perspectives different from their own. Through collaboration and meaningful learning experiences, they can see how supporting others makes a difference. My hope is that we work together, have fun, and leave our classroom in June as better people than when we entered in September.</p>
-          <p>Teaching requires patience and a willingness to keep learning. I plan to seek feedback, reflect on my practices, and learn from colleagues and students. Above all, I hope to be the teacher who makes every child feel important and believes in them when they struggle to believe in themselves. If my students leave knowing they are valued, capable, supported, and that they belong, I will know I have made a meaningful difference.</p>
-          <p class="refs"><strong>References:</strong> Ornstein, A. C., &amp; Levine, D. U. (2008). <em>Foundations of education</em> (10th ed.). Wadsworth Cengage Learning. · Williams, M. K. (2017). John Dewey in the 21st century. <em>Journal of Inquiry and Action in Education, 9</em>(1), 91–102.</p>
-          <a class="link-arrow" href="assets/docs/philosophy-of-education.pdf" target="_blank" rel="noopener">Download as PDF</a>
-        </article>
-      </div>
-
-      <div id="management" class="sub">
-        <div class="section-head"><span class="section-num">I · 3</span><h2>Philosophy on Classroom Management</h2></div>
-        <article class="card prose">
-          <blockquote class="pull">“The primary goal of classroom management is not simply to maintain control, but to help students develop responsibility for their actions.”</blockquote>
-          <div class="pillars">
-            <div class="pillar"><span class="pillar-ico">🤝</span><h4>Relationships first</h4><p>When students know their teacher cares about them, they're more likely to participate and do their best.</p></div>
-            <div class="pillar"><span class="pillar-ico">📋</span><h4>Clear &amp; consistent</h4><p>Students need to know their teacher will follow through on promises and expectations.</p></div>
-            <div class="pillar"><span class="pillar-ico">🌱</span><h4>Responsive Classroom</h4><p>Social-emotional well-being and academic success go hand in hand.</p></div>
-            <div class="pillar"><span class="pillar-ico">💃</span><h4>Balance &amp; joy</h4><p>High expectations and something fun to look forward to, like a Friday dance party.</p></div>
-          </div>
-          <p>My classroom management philosophy is centered on building strong relationships with each student and creating a classroom where everyone feels valued. I believe the primary goal of classroom management is not simply to maintain control, but to help students develop responsibility for their actions and feel comfortable in their learning environment. When students know their teacher cares about them, they are more likely to participate and feel motivated to do their best. I want my classroom to be a place where students feel safe asking questions, making mistakes, and being themselves. I believe that creating this type of environment is an important part of helping students succeed both academically and socially.</p>
-          <p>I believe that the teacher plays an important role in setting clear expectations and creating a structured environment where students understand what is expected of them. Consistency is especially important to me because students need to know that their teacher will follow through on promises and expectations. This helps build trust and shows students that their teacher's expectations are meaningful. However, I do not believe classroom management should fall entirely on the teacher. Students also need to learn to take responsibility for their behavior and understand how their choices affect others. My goal is to help students make positive decisions because they understand why those choices matter, rather than simply following the rules because they are afraid of getting in trouble.</p>
-          <p>My approach is primarily informed by the Responsive Classroom model, which emphasizes the connection between students' social and emotional well being and their academic success. I believe that getting to know each student individually is essential because what motivates one child may not work for another. For this reason, I would incorporate different reward systems, including whole class rewards and individual incentives. I want students to feel recognized for their efforts while also learning to take responsibility for meeting classroom expectations. I believe that positive reinforcement, when used thoughtfully, can encourage students to make positive choices and contribute to the classroom community.</p>
-          <p>I also believe that balance is an important part of classroom management. Students need structure, but they should also have opportunities to enjoy being in school. In my current student teaching placement, my cooperating teacher has a Friday dance party for the class, and I love how this gives students something fun to look forward to. It reminds me that classroom management does not have to focus only on correcting behavior or maintaining order. I want to bring that same balance into my own classroom by holding students to high expectations while making learning enjoyable. Overall, I want my students to know that I care about them while understanding that I will hold them accountable and follow through on what I say.</p>
-          <a class="link-arrow" href="assets/docs/classroom-management-philosophy.pdf" target="_blank" rel="noopener">Download as PDF</a>
-        </article>
-      </div>
-
-      <div id="about" class="sub">
-        <div class="section-head"><span class="section-num">I · 4</span><h2>A Little Bit About Me</h2><p class="handwritten">the person behind the lesson plans</p></div>
-        <div class="about-grid about-grid-3">
-          <div class="polaroid tilt-l about-photo">
-            <span class="tape"></span>
-            <img src="assets/img/fiona-storytime.jpg" alt="Fiona reading a Mo Willems Pigeon book with an exaggerated gasp" loading="lazy" />
-            <p class="caption">story time = best time</p>
-          </div>
-          <div class="card about-card">
-            <p>Growing up in the Three Village community, I've spent most of my life around kids, from leading games and arts and crafts as a summer camp counselor since 2019, to supporting students as an SEA/monitor substitute and after-school childcare assistant in the Three Village Central School District.</p>
-            <p>Today I'm finishing my B.A. in Child Study with a concentration in Speech at St. Joseph's University, New York, graduating in May 2027. I've worked in Pre-K, Kindergarten, 2nd, 3rd, and 5th grade classrooms, and I'm currently student teaching in grades 5 and 3 at Minnesauke Elementary School. I'm working toward certification in Early Childhood, Childhood, and Students with Disabilities, and I can't wait to have a classroom of my own.</p>
-          </div>
-          <div class="card facts-card">
-            <h3>Fun facts &amp; hobbies</h3>
-            <ul class="facts">
-              <li><span>⛺</span> <p>Summer camp counselor for 7+ summers</p></li>
-              <li><span>🗣️</span> <p>Concentration in Speech</p></li>
-              <li><span>💃</span> <p>Big fan of a Friday class dance party</p></li>
-              <li><span>📚</span> <p>Favorite read-aloud: anything starring Mo Willems' Pigeon</p></li>
-              <li><span>🎃</span> <p>Never says no to a themed costume day</p></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ============ II. TEACHING ARTIFACTS ============ -->
-  <section id="teaching" class="part part-tint">
-    <div class="part-inner">
-      <div class="part-head">
-        <span class="part-num">II.</span>
-        <div><h2>Teaching Artifacts &amp; Reflections</h2><p class="handwritten">documentation of an extended teaching activity</p></div>
-      </div>
-
-      <div id="lessons" class="sub">
-        <div class="section-head"><span class="section-num">II · 1</span><h2>Lesson Plans</h2><p class="handwritten">taught during my student teaching at Minnesauke Elementary</p></div>
-        <div class="lesson-grid">
-          <article class="card lesson">
-            <div class="lesson-top">
-              <span class="tag tag-math">Math · Grade 5</span>
-              <span class="tag tag-time">Sept 30, 2026</span>
-            </div>
-            <h3>Multi-Digit Multiplication with the Standard Algorithm</h3>
-            <p>Students become “Math Detectives,” estimating first, then applying the standard algorithm to larger factors while attending to place value.</p>
-            <dl class="lesson-meta">
-              <dt>Standard</dt><dd>NY-5.NBT.5</dd>
-              <dt>Objective</dt><dd>Accurately multiply multi-digit numbers, align place values, regroup, and use estimation to check reasonableness.</dd>
-              <dt>Differentiation</dt><dd>Place value charts, algorithm support tool, flexible grouping, error-analysis extensions.</dd>
-              <dt>Assessment</dt><dd>Independent practice, exit ticket, thumbs self-assessment</dd>
-            </dl>
-            <a class="link-arrow" href="assets/docs/lesson-plan-math.pdf" target="_blank" rel="noopener">View full lesson plan</a>
-          </article>
-          <article class="card lesson">
-            <div class="lesson-top">
-              <span class="tag tag-ela">ELA · Grade 5</span>
-              <span class="tag tag-time">Oct 7, 2026</span>
-            </div>
-            <h3>Making a Claim Using Evidence from <em>Pumpkin Jack</em></h3>
-            <p>An interactive read-aloud with purposeful stopping points, where students collect evidence on a <a href="#gallery">class anchor chart</a> and make a claim about what will happen to the class pumpkin.</p>
-            <dl class="lesson-meta">
-              <dt>Standard</dt><dd>NYS 5R1</dd>
-              <dt>Objective</dt><dd>Use relevant details and evidence from the text to make a logical claim.</dd>
-              <dt>Differentiation</dt><dd>Sentence frames, verbal rehearsal, teacher conferencing, Evidence Detective Challenge.</dd>
-              <dt>Assessment</dt><dd>Claim &amp; Evidence Sheet, exit ticket, self-assessment</dd>
-            </dl>
-            <a class="link-arrow" href="assets/docs/lesson-plan-ela.pdf" target="_blank" rel="noopener">View full lesson plan</a>
-          </article>
-          <article class="card lesson">
-            <div class="lesson-top">
-              <span class="tag tag-sci">Science · Grade 3</span>
-              <span class="tag tag-time">Nov 16, 2026</span>
-            </div>
-            <h3>Social Animals: How Living in Groups Helps Survival</h3>
-            <p>Students become “Animal Behavior Detectives,” investigating why meerkats live in groups and tigers live alone, then building an evidence-based argument.</p>
-            <dl class="lesson-meta">
-              <dt>Standard</dt><dd>NYS 3-LS2-1</dd>
-              <dt>Objective</dt><dd>Identify whether animals live in groups or alone and use evidence to explain how that behavior helps them survive.</dd>
-              <dt>Differentiation</dt><dd>3 levels of organizers, info cards, and exit tickets; sentence frames; riddle enrichment.</dd>
-              <dt>Assessment</dt><dd>Graphic organizer, differentiated exit ticket</dd>
-            </dl>
-            <a class="link-arrow" href="assets/docs/lesson-plan-science.pdf" target="_blank" rel="noopener">View full lesson plan</a>
-          </article>
-        </div>
-      </div>
-
-      <div id="resources" class="sub">
-        <div class="section-head"><span class="section-num">II · 2</span><h2>Resources Used in Unit</h2></div>
-        <div class="card resources">
-          <ul class="resource-list">
-            <li><a href="https://greatminds.org/math/eurekamath2" target="_blank" rel="noopener">Eureka Math²</a><span>Grade 5, Module 1, Lesson 11 materials</span></li>
-            <li><a href="https://www.nysed.gov/standards-instruction" target="_blank" rel="noopener">NYS Next Generation Learning Standards</a><span>5.NBT.5, 5R1, 3-LS2-1</span></li>
-            <li><span class="res-title"><em>Pumpkin Jack</em> by Will Hubbell</span><span>Interactive read-aloud text</span></li>
-            <li><a href="https://workspace.google.com/products/slides/" target="_blank" rel="noopener">Google Slides</a><span>Teacher-created lesson slideshows</span></li>
-            <li><a href="https://www.smarttech.com/" target="_blank" rel="noopener">SMART Board</a><span>Interactive modeling and student work display</span></li>
-            <li><a href="https://www.responsiveclassroom.org/" target="_blank" rel="noopener">Responsive Classroom</a><span>Framework for my classroom management</span></li>
-          </ul>
-        </div>
-      </div>
-
-      <div id="gallery" class="sub">
-        <div class="section-head"><span class="section-num">II · 3</span><h2>Pictures of My Lessons</h2><p class="handwritten">me teaching &amp; my anchor charts</p></div>
-        <div class="gallery gallery-mix">
-          <figure class="polaroid g-item" data-cat="teaching"><img src="assets/img/teaching-fractions.jpg" alt="Fiona modeling adding fractions with unlike denominators on the SMART Board" loading="lazy" /><figcaption>“Get the C.D.!” adding fractions</figcaption></figure>
-          <figure class="polaroid g-item" data-cat="teaching"><img src="assets/img/teaching-poetry.jpg" alt="Fiona leading a 5th grade poetry lesson while students annotate their texts" loading="lazy" /><figcaption>Poetry close reading in 5th grade</figcaption></figure>
-          <figure class="polaroid g-item" data-cat="teaching"><img src="assets/img/teaching-readaloud-k.jpg" alt="Fiona doing an expressive Mo Willems Pigeon read-aloud for a kindergarten class on the rug" loading="lazy" /><figcaption>Pigeon read-aloud in Kindergarten 🐦</figcaption></figure>
-          <figure class="polaroid g-item g-wide" data-cat="teaching"><img src="assets/img/teaching-division.jpg" alt="Fiona's 5th graders following a partial quotients division lesson on the SMART Board" loading="lazy" /><figcaption>“Let's Partially Build a Quotient”</figcaption></figure>
-          <figure class="polaroid g-item g-wide" data-cat="teaching"><img src="assets/img/pumpkin-investigation.jpg" alt="Classroom windowsill with jack-o-lantern pumpkins in jars, labeled plant experiments, and the book Pumpkin Jack" loading="lazy" /><figcaption>Our pumpkin &amp; plant investigations 🎃🌱</figcaption></figure>
-        </div>
-        <div class="anchor-card anchor-card-rev card">
-          <div>
-            <span class="obs-badge">Anchor chart · ELA · Grade 5</span>
-            <h3>Using Evidence from a Text to Make a Claim</h3>
-            <p>Built live with students during my <a href="assets/docs/lesson-plan-ela.pdf" target="_blank" rel="noopener"><em>Pumpkin Jack</em> lesson</a>. At each stopping point in the read-aloud, the class recorded what they noticed in the story (<strong>Evidence</strong>), what that evidence made them think (<strong>Reasoning</strong>), and finally a <strong>Claim</strong> about what will happen to our class pumpkin.</p>
-            <p>The sentence starters at the top of each column (“In the story, I noticed…”, “This evidence makes me think…”, “My claim is that…”) doubled as scaffolds for students' own Claim &amp; Evidence Sheets.</p>
-          </div>
-          <figure class="polaroid g-item tilt-r" data-cat="charts"><img src="assets/img/anchor-claim-evidence.jpg" alt="Using Evidence from a Text to Make a Claim anchor chart with Evidence, Reasoning, and Claim columns about Pumpkin Jack" loading="lazy" /><figcaption>Claim &amp; evidence anchor chart 🎃</figcaption></figure>
-        </div>
-        <div class="anchor-card card">
-          <figure class="polaroid g-item tilt-l" data-cat="charts"><img src="assets/img/anchor-figurative-language.jpg" alt="Figurative language anchor chart with examples of simile, metaphor, personification, and hyperbole" loading="lazy" /><figcaption>Figurative language anchor chart</figcaption></figure>
-          <div>
-            <span class="obs-badge">Anchor chart · ELA · Grade 5</span>
-            <h3>Figurative Language</h3>
-            <p>A student-friendly reference for the four types of figurative language: <strong>simile</strong>, <strong>metaphor</strong>, <strong>personification</strong>, and <strong>hyperbole</strong>. Each section is color-coded with relatable examples, and the crossed-out “like / as” makes the difference between similes and metaphors easy to spot at a glance.</p>
-            <p>The chart stays up in the classroom so students can return to it while reading and writing poetry.</p>
-          </div>
-        </div>
-      </div>
-
-      <div id="work" class="sub">
-        <div class="section-head"><span class="section-num">II · 4</span><h2>Student Work Samples</h2><p class="handwritten">exit tickets from my multiplication lesson</p></div>
-        <div class="work-grid">
-          <figure class="polaroid work-item g-item" data-cat="work">
-            <img src="assets/img/work-sample-exit-ticket-2.jpg" alt="Student exit ticket solving 3,124 times 216 correctly with an estimate of 620,000" loading="lazy" />
-            <figcaption>Exit ticket: meets the objective ✓</figcaption>
-            <p class="work-note">Estimates 3,100 × 200 = 620,000, correctly solves 3,124 × 216 = 674,784 with the standard algorithm, and uses the estimate to explain why the answer is reasonable.</p>
-          </figure>
-          <figure class="polaroid work-item g-item" data-cat="work">
-            <img src="assets/img/work-sample-exit-ticket-1.jpg" alt="Student exit ticket with color-coded partial products for 3,124 times 216" loading="lazy" />
-            <figcaption>Exit ticket: shows a next step</figcaption>
-            <p class="work-note">Color-codes each partial product to keep place value organized. A slip in the third partial product (614,800 instead of 624,800) gives 664,784, exactly the kind of error an exit ticket surfaces so it can be retaught in a small group.</p>
-          </figure>
-        </div>
-        <p class="work-caption">Both students circled “I got this!” on the self-assessment, a reminder of why I pair self-assessment with the work itself. <a href="assets/docs/lesson-plan-math.pdf" target="_blank" rel="noopener">See the math lesson plan</a>. Student names have been removed.</p>
-      </div>
-
-      <div id="commentary" class="sub">
-        <div class="section-head"><span class="section-num">II · 5</span><h2>Reflective Commentary by My Cooperating Teacher</h2></div>
-        <article class="card letter-quote">
-          <span class="quote-mark" aria-hidden="true">“</span>
-          <div>
-            <p>Whether teaching a reading lesson or a photosynthesis lesson in science, Fiona is a hard working, passionate and conscientious teacher. She developed many lessons which she taught in succession over an 8 week-long period. She has high expectations and learned how to scaffold assignments for the levels in our class. Her precision to detail and effective procedural breakdown allow students to grasp the multi step math lessons. The students enjoyed her lessons and made marked progress in Module 1, multiplication and division, in math.</p>
-            <p>In all of my observations, Fiona embraced every student's questions and needs to the best of her ability. She is a very intuitive and natural teacher.</p>
-            <p class="who">— Christine Beck, 5th Grade Cooperating Teacher, Minnesauke Elementary School</p>
-          </div>
-        </article>
-      </div>
-
-      <div id="observations" class="sub">
-        <div class="section-head"><span class="section-num">II · 6</span><h2>Observation Highlights</h2></div>
-        <div class="obs-grid">
-          <article class="card obs">
-            <span class="obs-badge">Math · Grade 5</span>
-            <h3>Multi-Digit Multiplication</h3>
-            <blockquote>“Her precision to detail and effective procedural breakdown allow students to grasp the multi step math lessons.”</blockquote>
-            <p class="who">— Christine Beck, Cooperating Teacher</p>
-          </article>
-          <article class="card obs">
-            <span class="obs-badge">Reflective Practice</span>
-            <h3>Growth through feedback</h3>
-            <blockquote>“Fiona was always receptive to suggestion and direction, and she reflected on her own teaching, noting aspects of lessons that she would keep or adjust.”</blockquote>
-            <p class="who">— Christine Beck, Cooperating Teacher</p>
-          </article>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ============ III. PROFESSIONAL ============ -->
-  <section id="professional" class="part">
-    <div class="part-inner">
-      <div class="part-head">
-        <span class="part-num">III.</span>
-        <div><h2>Professional Information</h2><p class="handwritten">activities, awards &amp; references</p></div>
-      </div>
-
-      <div id="activities" class="sub">
-        <div class="section-head"><span class="section-num">III · 1</span><h2>Professional Activities &amp; Awards</h2></div>
-        <div class="pro-grid pro-grid-3">
-          <div class="card">
-            <h3>Activities, mentoring &amp; clubs</h3>
-            <ul class="check-list">
-              <li><strong>Kappa Delta Pi</strong> Educational Honor Society, 2024–present</li>
-              <li><strong>Honors Program</strong>, St. Joseph's University, 2023–present</li>
-              <li><strong>Camp Counselor</strong>, Three Village Summer Recreation Camp, 2019–2026</li>
-              <li><strong>Childcare Assistant</strong>, Three Village SACC after-school program</li>
-              <li><strong>School events:</strong> parent-teacher conferences, fundraisers, concerts &amp; extracurriculars at Minnesauke</li>
-              <li><strong>Hallway bulletin board</strong> design for the 5th grade team</li>
-            </ul>
-          </div>
-          <div class="card">
-            <h3>Awards &amp; honors</h3>
-            <ul class="awards">
-              <li><span class="award-ico">🏅</span><div><strong>Smythe Memorial Scholarship</strong><small>2025–present</small></div></li>
-              <li><span class="award-ico">🎓</span><div><strong>Scholastic Achievement Scholarship</strong><small>2023–present</small></div></li>
-              <li><span class="award-ico">🏆</span><div><strong>Dean's List</strong><small>2023–2026</small></div></li>
-              <li><span class="award-ico">⭐</span><div><strong>Kappa Delta Pi</strong><small>Educational Honor Society, 2024–present</small></div></li>
-            </ul>
-          </div>
-          <figure class="polaroid tilt-r community-photo">
-            <span class="tape"></span>
-            <img src="assets/img/halloween-team.jpg" alt="Fiona and the 5th grade team dressed as the Scooby-Doo gang for Halloween" loading="lazy" />
-            <figcaption>Part of the 5th grade team, Halloween 2026 👻</figcaption>
-          </figure>
-        </div>
-      </div>
-
-      <div id="letters" class="sub">
-        <div class="section-head"><span class="section-num">III · 2</span><h2>Letter of Recommendation</h2></div>
-        <div class="letters">
-          <a class="letter" href="assets/docs/letter-christine-beck.pdf" target="_blank" rel="noopener">
-            <span class="envelope" aria-hidden="true">✉️</span>
-            <span><strong>Christine Beck</strong><small>5th Grade Cooperating Teacher, Minnesauke Elementary</small></span>
-            <span class="link-arrow">Read letter</span>
-          </a>
-        </div>
-      </div>
+    <div class="map-grid">
+      <article class="card map-card map-i">
+        <a class="map-head" href="resume.html"><span class="part-num">I.</span><h3>Background Information</h3></a>
+        <p>My résumé, my philosophies of education and classroom management, and a little about me.</p>
+        <ul class="map-links">
+          <li><a href="resume.html"><span class="menu-num">I · 1</span><span>Résumé</span></a></li>
+          <li><a href="philosophy.html"><span class="menu-num">I · 2</span><span>Educational Philosophy</span></a></li>
+          <li><a href="classroom-management.html"><span class="menu-num">I · 3</span><span>Philosophy on Classroom Management</span></a></li>
+          <li><a href="about.html"><span class="menu-num">I · 4</span><span>A Little Bit About Me</span></a></li>
+        </ul>
+      </article>
+      <article class="card map-card map-ii">
+        <a class="map-head" href="lessons.html"><span class="part-num">II.</span><h3>Teaching Artifacts &amp; Reflections</h3></a>
+        <p>Lesson plans, classroom photos, anchor charts, student work, and feedback from my cooperating teacher.</p>
+        <ul class="map-links">
+          <li><a href="lessons.html"><span class="menu-num">II · 1</span><span>Lesson Plans &amp; Resources</span></a></li>
+          <li><a href="classroom.html"><span class="menu-num">II · 2</span><span>Pictures of My Lessons</span></a></li>
+          <li><a href="student-work.html"><span class="menu-num">II · 3</span><span>Student Work Samples</span></a></li>
+          <li><a href="reflections.html"><span class="menu-num">II · 4</span><span>Commentary &amp; Observations</span></a></li>
+        </ul>
+      </article>
+      <article class="card map-card map-iii">
+        <a class="map-head" href="professional.html"><span class="part-num">III.</span><h3>Professional Information</h3></a>
+        <p>Professional activities, awards, and my letter of recommendation.</p>
+        <ul class="map-links">
+          <li><a href="professional.html"><span class="menu-num">III · 1</span><span>Professional Activities &amp; Awards</span></a></li>
+        </ul>
+      </article>
     </div>
   </section>
 
