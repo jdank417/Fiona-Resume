@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+<rect width="800" height="600" fill="#DCE7F3"/>
+<g fill="#5D86B3" opacity=".18"><circle cx="96.0" cy="90.0" r="40"/><circle cx="720.0" cy="510.0" r="60"/><circle cx="680.0" cy="72.0" r="18"/></g>
+<g transform="translate(400.0 270.0)"><rect x="-150" y="-100" width="300" height="190" rx="10" fill="#fff" stroke="#5D86B3" stroke-width="6"/><rect x="-125" y="-75" width="70" height="60" fill="#5D86B3" opacity=".5" transform="rotate(-5 -90 -45)"/><rect x="-30" y="-70" width="70" height="60" fill="#5D86B3" opacity=".35" transform="rotate(4 5 -40)"/><rect x="60" y="-78" width="70" height="60" fill="#5D86B3" opacity=".6" transform="rotate(-3 95 -48)"/><rect x="-100" y="10" width="200" height="55" fill="#5D86B3" opacity=".25"/></g>
+<text x="400.0" y="550" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="26" fill="#3b3330" opacity=".75">Bulletin board: “We Are Readers!”</text>
+<text x="400.0" y="580" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="15" fill="#3b3330" opacity=".45">placeholder: replace assets/img/lesson-bulletin.svg</text>
+</svg>

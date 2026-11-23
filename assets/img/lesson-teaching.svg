@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+<rect width="800" height="600" fill="#DDE8DA"/>
+<g fill="#6E9A6B" opacity=".18"><circle cx="96.0" cy="90.0" r="40"/><circle cx="720.0" cy="510.0" r="60"/><circle cx="680.0" cy="72.0" r="18"/></g>
+<g transform="translate(400.0 270.0)"><rect x="-140" y="-90" width="200" height="130" rx="8" fill="#fff" stroke="#6E9A6B" stroke-width="6"/><circle cx="110" cy="-30" r="28" fill="#6E9A6B"/><path d="M75 90 q35 -80 70 0z" fill="#6E9A6B"/><path d="M-110 -50 l50 40 l40 -25 l50 30" stroke="#6E9A6B" stroke-width="7" fill="none" stroke-linecap="round" stroke-linejoin="round"/></g>
+<text x="400.0" y="550" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="26" fill="#3b3330" opacity=".75">Teaching the fractions lesson</text>
+<text x="400.0" y="580" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="15" fill="#3b3330" opacity=".45">placeholder: replace assets/img/lesson-teaching.svg</text>
+</svg>
