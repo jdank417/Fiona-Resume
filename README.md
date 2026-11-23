@@ -4,15 +4,13 @@ Static e-portfolio site (plain HTML/CSS/JS, no build step), deployed to GitHub P
 
 ## Swapping in real content
 
-Everything marked as a placeholder is fake. To replace it:
+Real content (résumé, philosophies, lesson plans, cooperating-teacher letter) is in place. Still placeholder:
 
 | What | Where |
 |---|---|
-| Name, bio, philosophy, résumé, quotes, awards | `index.html` (search for "Placeholder", "Example", "Sample") |
+| Fun facts, second recommendation letter | `index.html` |
 | Professional photo | replace `assets/img/portrait.svg` (or drop in `portrait.jpg` and update the `src`) |
 | Lesson / anchor chart / bulletin board / student work photos | `assets/img/*.svg` → swap files and update `src` in the gallery |
-| Résumé PDF, lesson plans, recommendation letters | `assets/docs/*.pdf` (keep the same filenames) |
-| Email / LinkedIn | contact section at the bottom of `index.html` |
 
 ## Local preview
 

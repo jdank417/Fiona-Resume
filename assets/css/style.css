@@ -155,13 +155,16 @@ p { margin: 0 0 1em; }
 .chips-soft li { background: rgba(191,213,236,.45); color: #36577a; }
 
 /* lessons */
-.lesson-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 24px; }
+.lesson-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 24px; }
+.lesson-meta { grid-template-columns: 1fr !important; gap: 2px !important; }
+.lesson-meta dd { margin-bottom: 8px !important; }
 .lesson { display: flex; flex-direction: column; transition: transform .25s, box-shadow .25s; }
 .lesson:hover { transform: translateY(-4px) rotate(-.3deg); }
 .lesson-top { display: flex; gap: 8px; margin-bottom: 14px; }
 .tag { font-size: .78rem; font-weight: 700; padding: 5px 12px; border-radius: 999px; }
 .tag-math { background: var(--sky); color: #2f5378; }
 .tag-ela { background: var(--blush); color: #8a3a2b; }
+.tag-sci { background: #DDE8DA; color: #3e5f3b; }
 .tag-time { background: var(--cream); color: var(--ink-soft); }
 .lesson-meta { display: grid; grid-template-columns: auto 1fr; gap: 6px 16px; font-size: .93rem; margin: 6px 0 22px; padding: 16px; background: var(--cream); border-radius: 14px; }
 .lesson-meta dt { font-weight: 700; color: var(--ink); }
@@ -274,3 +277,11 @@ p { margin: 0 0 1em; }
   .tab-list { display: flex; border-radius: 20px; }
   .tab-list button { flex: 1; padding: 10px 12px; }
 }
+
+/* additions */
+.refs { font-size: .85rem; color: var(--ink-soft) !important; border-top: 1px dashed var(--line); padding-top: 14px; }
+.res-title { font-weight: 700; color: var(--coral-dark); }
+.letter-quote + .obs-grid { margin-top: 24px; }
+.letter-pending { border-style: dashed; border-color: var(--line); color: var(--ink-soft); background: transparent; }
+.letter-pending:hover { transform: none; background: transparent; }
+@media (max-width: 820px) { .lesson-grid { grid-template-columns: 1fr; } }
