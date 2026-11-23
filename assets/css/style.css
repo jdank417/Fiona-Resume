@@ -338,3 +338,13 @@ p { margin: 0 0 1em; }
   .work-grid { grid-template-columns: 1fr; }
   .part-head { flex-direction: column; align-items: flex-start; gap: 4px; }
 }
+
+/* gallery + anchor chart */
+.gallery-4 { grid-template-columns: repeat(4, 1fr); gap: 24px; }
+.anchor-card { margin-top: 36px; display: grid; grid-template-columns: minmax(0, 340px) 1fr; gap: clamp(24px, 4vw, 48px); align-items: center; }
+.anchor-card .polaroid img { aspect-ratio: 3/4; object-fit: cover; }
+.anchor-card h3 { font-size: 1.6rem; margin-top: 6px; }
+.letters { grid-template-columns: minmax(0, 560px); }
+@media (max-width: 960px) { .gallery-4 { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 720px) { .anchor-card { grid-template-columns: 1fr; } .anchor-card .polaroid { max-width: 320px; margin: 0 auto; } }
+@media (max-width: 480px) { .gallery-4 { grid-template-columns: 1fr; } }
