@@ -1,6 +1,6 @@
 # Fiona's Teaching Portfolio
 
-Static e-portfolio site (plain HTML/CSS/JS, no build step), deployed to GitHub Pages on every push to `main`.
+Static e-portfolio site (plain HTML/CSS/JS, no build step), deployed to GitHub Pages from the root of `main` (Settings → Pages → Deploy from branch).
 
 ## Swapping in real content
 
